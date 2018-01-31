@@ -3867,3 +3867,270 @@
 )
 [ info ] [ RUN ] app\admin\controller\News->index[ D:\wamp\www\myweb_object\application\admin\controller\News.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] ombbs.com/admin [运行时间：0.048286s][吞吐率：20.71req/s] [内存消耗：1,949.81kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] ombbs.com/admin/login/index.html [运行时间：0.044841s][吞吐率：22.30req/s] [内存消耗：2,108.66kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\wamp\www\object\myweb_object\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\www\object\myweb_object\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/static/h-ui/css/H-ui.min.css
+[ info ] ombbs.com/static/hadmin/static/h-ui/css/H-ui.min.css [运行时间：0.048196s][吞吐率：20.75req/s] [内存消耗：1,604.34kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/static/h-ui.admin/css/H-ui.login.css
+[ info ] ombbs.com/static/hadmin/static/h-ui.admin/css/H-ui.login.css [运行时间：0.047194s][吞吐率：21.19req/s] [内存消耗：1,604.35kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/static/h-ui.admin/css/style.css
+[ info ] ombbs.com/static/hadmin/static/h-ui.admin/css/style.css [运行时间：0.055807s][吞吐率：17.92req/s] [内存消耗：1,604.34kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/lib/Hui-iconfont/1.0.8/iconfont.css
+[ info ] ombbs.com/static/hadmin/lib/Hui-iconfont/1.0.8/iconfont.css [运行时间：0.058081s][吞吐率：17.22req/s] [内存消耗：1,604.37kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'iconfont' => '1.0.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/lib/jquery/1.9.1/jquery.min.js
+[ info ] ombbs.com/static/hadmin/lib/jquery/1.9.1/jquery.min.js [运行时间：0.047080s][吞吐率：21.24req/s] [内存消耗：1,604.33kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => '*/*',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha
+[ info ] ombbs.com/captcha [运行时间：0.050789s][吞吐率：19.69req/s] [内存消耗：1,630.31kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\www\object\myweb_object\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-31T23:16:30+08:00 ] 127.0.0.1 127.0.0.1 GET /static/hadmin/static/h-ui/js/H-ui.min.js
+[ info ] ombbs.com/static/hadmin/static/h-ui/js/H-ui.min.js [运行时间：0.050741s][吞吐率：19.71req/s] [内存消耗：1,604.32kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\object\myweb_object\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'hadmin',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'ombbs.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.4549.400 QQBrowser/9.7.12900.400',
+  'accept' => '*/*',
+  'referer' => 'http://ombbs.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=vs30hb4t1r2dnf8nochepsu4v2',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
