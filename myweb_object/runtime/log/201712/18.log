@@ -1,0 +1,51 @@
+---------------------------------------------------------------
+[ 2017-12-18T11:23:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/check.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=localhost;dbname=myob_app;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `en_admin_user` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `en_admin_user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `en_admin_user`  SET `last_login_time`=1513567405,`last_login_ip`='127.0.0.1',`update_time`=1513567405  WHERE  `id` = 2 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2017-12-18T16:52:33+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T16:55:47+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T16:57:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T16:57:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:00:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:00:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:01:19+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:01:30+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:02:45+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:02:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:06:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:09:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:10:25+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:14:32+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
+---------------------------------------------------------------
+[ 2017-12-18T17:14:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/image/upload.html
+[ error ] [8]Use of undefined constant ok - assumed 'ok'
