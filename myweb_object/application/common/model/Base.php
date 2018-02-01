@@ -5,6 +5,7 @@ use think\Model;
 class Base extends Model{
 
 	protected $autoWriteTimestamp = true;
+	protected $autoCheckFields =false; 
 	
 	public function add($data){
 
